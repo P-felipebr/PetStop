@@ -111,6 +111,14 @@
   transition: .5s;
 }
 
+.linhas{
+  width: 100%;
+}
+
+.perfil{
+  padding: 10px;
+}
+
 .info-menu, .perfil{
   display: none;
   font-size: 1.4rem;
@@ -195,15 +203,15 @@
   transform: translateX(0);
 }
 
-.mobile-menu.active .line1 {
+.linhas.active .line1 {
   transform: rotate(-45deg) translate(-8px, 8px);
 }
 
-.mobile-menu.active .line2 {
+.linhas.active .line2 {
   opacity: 0;
 }
 
-.mobile-menu.active .line3 {
+.linhas.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
 }
 
@@ -242,10 +250,10 @@
     font-size: .8rem;
   }
   
-  .mobile-menu.active .line1 {
+  .linhas.active .line1 {
     transform: rotate(-45deg) translate(-4px, 4px);
   }
-  .mobile-menu.active .line3 {
+  .linhas.active .line3 {
     transform: rotate(45deg) translate(-5px, -5px);
   }
 
