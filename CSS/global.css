@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    padding-top: 12vh;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+
+  }
