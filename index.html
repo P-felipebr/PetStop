@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,8 @@
 </head>
 
 <body>
+
+    <!-- COPIE ESSA NAVBAR PARA SEU HTML -->
 
     <header class="navbar">
         <nav>
@@ -41,11 +43,11 @@
                 <div class="info-menu">
                     <h2>Departamentos</h2>
                 </div>
-                <li> <a href="./index.html"> Cachorro</a> </li>
-                <li> <a href="./Filmes.html"> Gato</a> </li>
-                <li> <a href="./Series.html"> Pássaro</a> </li>
-                <li> <a href="./Series.html"> Peixe</a> </li>
-                <li> <a href="./Series.html"> Pássaro</a> </li>
+                <li> <a href="#cachorro"> Cachorro</a> </li>
+                <li> <a href="#Gato"> Gato</a> </li>
+                <li> <a href="#Passaro"> Pássaro</a> </li>
+                <li> <a href="#Peixe"> Peixe</a> </li>
+                <li> <a href="#Marcas"> Marcas</a> </li>
             </ul>
 
             <div class="container-wrapper">
@@ -68,34 +70,117 @@
     </header>
 
     <main>
-        <section class="principal">
+        <!-- 
+        PASSO A PASSO PARA COMEÇAR
 
-            <img class="banner1" src="./imagesHome/BannerPrincipal.png" alt="">
+        ATENÇÃOOOOO PROFAVOR USAR NOMES SEMANTICOS EM CLASSES OU ID QUE FOREM CRIAR, NÃO COLOCAR QUALQUER COISA
+        ISSO DIFICULTA TANTO NA HORA DE ENTENDER TANTO NA HORA DE TENTAR ARRUMAR UM BUG, ENTÃO PORFAVOOOR
+        COLOQUE NOMES QUE TENHAM A VER COM O QUE ESTÃO FAZENDO, MUITO OBRIGADO :)
+        
+        - CRIE NA PASTA RAIZ (PETSTOP) SEU ARQUIVO HTML, COM O NOME DA PAGINA QUE IRA FAZER
 
-           <img class="banner2" src="./imagesHome/BannerPrincial2.png" alt=""> 
+        - APOS ISSO CRIE SEU CSS COM O MESMO NOME DA PAGINA QUE IRA CRIAR, DENTRO DA PASTA CSS E IMPORTE NO CSS (STYLE.CSS)
 
-           <img class="banner3" src="./imagesHome/BannerPrincipal3.png" alt="">
+        - NO SEU ARQUIVO HTML PUXE O CSS (STYLE.CSS) QUE LÁ ESTARA TUDO QUE PRECISARA 
 
-            <div class="grid-gato">
+        - NOMEI SUA MAIN PARA A TELA QUE ESTA FAZENDO E PUXE ESSE NOME NO SEU CSS QUANDO FOR FAZER, PARA NÃO DAR PROBLEMAS
 
-                <div class="escrita-home">
+        - CASO PRECISEM FAZER ALGO EM JAVASCRPT CRIE SEU ARQUIVO JS DENTRO DA PASTA (SCRIPT)
 
-                    <h1>Todo Am<i class="fa-solid fa-heart" style="color: #f9595f;"></i>r </h1>
+        - CRIE O ARQUIVO JS COM O NOME DA FUNÇÃO QUE VOCE IRA FAZER
 
-                    <h3>Que seu pet merece</h3>
+        - CASO VENHA A USAR IMAGEN CRIE UMA PASTA COM O NOME IMAGES E O NOME DA PAGINA QUE ESTA CRIANDO COMO O EXMPLO (ImagesHome)
 
-                    <a href="">Explorar agora</a>
+        - COPIE O HEADER O FOOTER E O SCRIPT PARA SEU HTML
+
+        - CASO QUEIRA SER MAIS PRATICO DE UM CTRL + A NESSE HTML AQUI E APAGUE ESSAS INFORMAÇÕES DO MAIN
+
+        - POR FIM, TODO SEU CODIGO SERA FEITO DENTRO DA MAIN DO SEU HTML
+
+        - BOM CÓDIGO A TODS :) QUALQUER COISA SÓ ME PERGUNTAR 
+
+        ASS: PREDO -->
+
+    </main>
+
+    <!-- COPIE ESSE FOOTER PARA SEU HTML -->
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contact">
+                <h1 class="footer_logo">PetStop</h1>
+                <p class="frase">petstop. A maior empresa da america latina de vendad em varejo sobre artigos de pet</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
 
                 </div>
 
-                <img src="./imagesHome/gatoHome.png" alt="">
-
             </div>
 
-        </section>
-    </main>
+            <ul class="footer-list">
+                <li>
+                    <h3>Institucional</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Compania</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Produtos</a>
+                </li>
+            </ul>
 
-    <script src="./mobile-navbar.js"></script>
+            <ul class="footer-list">
+                <li>
+                    <h3>Suporte</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">FAQ</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Suporte Customizado</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Institucional</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link"><i class="fa-solid fa-phone"></i> +55 (81) 4002-8922</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link"> <i class="fa-brands fa-whatsapp"></i> +55 (81) 4002-8933</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link"> <i class="fa-solid fa-envelope"></i> Petstop@gmail.com</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            PetStop 2023 - Todos os Direitos reservado
+        </div>
+
+    </footer>
+
+    <!-- COPIE PARA SEU HTML -->
+    <script src="./SCRIPT/mobile-navbar.js"></script>
 </body>
-
 </html>
