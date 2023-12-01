@@ -1,10 +1,388 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
-main{
+main {
     height: 80vh;
 }
 
+.banner-principal {
+    background-image: url("/imagesHome/banner.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 100% 80vh;
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+
+.grid-banner {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    align-items: end;
+    height: 100%;
+}
+
+.gato {
+    max-width: 100%;
+}
+
+.txt-banner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin-bottom: 10vh;
+    align-items: start;
+    gap: 30px;
+
+}
+
+.txt-banner h1 {
+    color: #003459;
+    font-family: Alata;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.txt-banner i {
+    font-size: 3.5rem;
+    padding: 0px 3px;
+}
+
+
+.txt-banner h3 {
+    color: #00528C;
+    font-family: Alata;
+    font-size: 3.1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.txt-banner a {
+    text-decoration: none;
+    padding: 12px 20px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 59px;
+    background: #003459;
+}
+
+
+@media(min-width: 1550px) {
+
+    .txt-banner h1 {
+        font-size: 7rem;
+    }
+
+    .txt-banner i {
+            font-size: 4.5rem;
+        }
+
+    .txt-banner h3 {
+        font-size: 3.4rem;
+    }
+
+    .txt-banner a {
+        font-size: 1.3rem;
+    }
+    .gato {
+        width: 150%;
+    }
+
+}
+
+@media(max-width: 1350px) {
+
+    .banner-principal {
+        background-image: url(/imagesHome/banner2.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .txt-banner h1 {
+        font-size: 4.5rem;
+    }
+
+    .txt-banner i {
+            font-size: 3rem;
+        }
+
+    .txt-banner h3 {
+        font-size: 2.5rem;
+    }
+
+    .txt-banner a {
+        font-size: .8rem;
+    }
+
+}
+
+@media(max-width: 902px) {
+
+
+    .grid-banner {
+        grid-template-columns: 1fr;
+        justify-items: left;
+    }
+    
+    .txt-banner h1 {
+        font-size: 4.5rem;
+    }
+
+    .txt-banner i {
+            font-size: 3rem;
+        }
+
+    .txt-banner h3 {
+        font-size: 2.5rem;
+    }
+
+    .txt-banner a {
+        font-size: .8rem;
+    }
+
+    .txt-banner{
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        padding-left: 20px;
+        padding-top: 150px;
+    }
+    .gato {
+        justify-self: center;
+    }
+}
+
+@media(max-width: 500px) {
+
+    .txt-banner h1 {
+        font-size: 3.5rem;
+    }
+
+    .txt-banner i {
+            font-size: 2.5rem;
+        }
+
+    .txt-banner h3 {
+        font-size: 2.3rem;
+    }
+
+    .txt-banner a {
+        font-size: .8rem;
+    }
+
+    .txt-banner{
+        
+    }
+}
+
+
+
+/* .banner-principal{
+
+}
+
+.banner-principal .banner1{
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+width: 100%;
+height: 80vh;
+object-fit: cover;
+}
+.banner1{
+position: relative;
+}
+
+.banner-principal .banner2{
+display: none;
+}
+
+main{
+height: 80vh;
+}
+
+
+.grid-banner{
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 100%;
+align-items: end;
+margin-top: 50px;
+}
+
+.txt-banner {
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+padding: 40px;
+margin-bottom: 10vh;
+align-items: start;
+
+}
+
+.txt-banner h1{
+color: #003459;
+font-family: Alata;
+font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.txt-banner i{
+font-size: 54px;
+padding: 0px 3px;
+}
+
+
+.txt-banner h3{
+color: #00528C;
+font-family: Alata;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+}
+
+.txt-banner a {
+text-decoration: none;
+padding: 12px 20px;
+color: #FFF;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-radius: 59px;
+background: #003459;
+margin-top: 20px;
+}
+
+.gato{
+max-width: 100%;
+display: block;
+}
+
+
+@media(max-width: 1350px){
+.banner1{
+    display: none;
+}
+
+.banner-principal .banner2{
+    display: block;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+}
+*/
+
+/* ----------------------------------------------------- */
+
+/*main{
+height: 80vh;
+}
+
 main .banner1{
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+width: 100%;
+height: 80%;
+object-fit: cover;
+
+}
+
+main .escrita-home{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+padding: 40px;
+margin-bottom: 10vh;
+align-items: start;
+}
+
+.grid-gato{
+display: grid;
+padding-top: 6vh;
+grid-template-columns: 1fr 1fr;
+height: 100%;
+align-items: end
+}
+
+.grid-gato img{
+width: 100%;
+}
+
+.escrita-home h1{
+color: #003459;
+font-family: Alata;
+font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.escrita-home i{
+font-size: 54px;
+padding: 0px 3px;
+}
+
+
+.escrita-home h3{
+color: #00528C;
+font-family: Alata;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+}
+
+.escrita-home a {
+text-decoration: none;
+padding: 12px 20px;
+color: #FFF;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-radius: 59px;
+background: #003459;
+margin-top: 20px;
+}
+
+.banner2{
+display: none;
+}
+
+.banner3{
+display: none;
+}
+
+
+@media(max-width: 1100px){
+
+.banner1{
+    display: none;
+}
+
+.banner2{
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
@@ -15,62 +393,60 @@ main .banner1{
 
 }
 
-main .escrita-home{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    padding: 40px;
-    margin-bottom: 10vh;
-    align-items: start;
-}
-
-.grid-gato{
-    display: grid;
-    padding-top: 6vh;
-    grid-template-columns: 1fr 1fr;
-    height: 100%;
-    align-items: end
-}
-
-.grid-gato img{
-    width: 100%;
-}
-
 .escrita-home h1{
-    color: #003459;
-    font-family: Alata;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-size: 4rem;
 }
 
 .escrita-home i{
-    font-size: 54px;
+    font-size: 2.5rem;
     padding: 0px 3px;
 }
 
 
 .escrita-home h3{
-    color: #00528C;
-    font-family: Alata;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 400;
+    font-size: 2.5rem;
 }
 
 .escrita-home a {
-    text-decoration: none;
-    padding: 12px 20px;
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    border-radius: 59px;
-    background: #003459;
-    margin-top: 20px;
+    font-size: .8rem;
+}
+
+.grid-gato{
+    padding-top: 10vh;
+}
+
+}
+
+@media(max-width: 900px){
+
+.escrita-home h1{
+    font-size: 3rem;
+}
+
+.escrita-home i{
+    font-size: 2rem;
+    padding: 0px 3px;
+}
+
+
+.escrita-home h3{
+    font-size: 2rem;
+}
+
+.escrita-home a {
+    font-size: .7rem;
+}
+
+.grid-gato{
+    padding-top: 16vh;
+}
+
+}
+
+@media(max-width: 600px){
+
+.grid-gato{
+    gap: 50px;
 }
 
 .banner2{
@@ -78,110 +454,28 @@ main .escrita-home{
 }
 
 .banner3{
-    display: none;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .escrita-home{
+    padding: 0px 20px;
+    margin: 0;
+    grid-column: 1/-1;
+}
+
+.grid-gato img{
+    width: 100%;
+    grid-column: 1/-1;
+
 }
 
 
-@media(max-width: 1100px){
-
-    .banner1{
-        display: none;
-    }
-
-    .banner2{
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        width: 100%;
-        height: 80%;
-        object-fit: cover;
-
-    }
-
-    .escrita-home h1{
-        font-size: 4rem;
-    }
-    
-    .escrita-home i{
-        font-size: 2.5rem;
-        padding: 0px 3px;
-    }
-    
-    
-    .escrita-home h3{
-        font-size: 2.5rem;
-    }
-    
-    .escrita-home a {
-        font-size: .8rem;
-    }
-
-    .grid-gato{
-        padding-top: 10vh;
-    }
-
 }
-
-@media(max-width: 900px){
-
-    .escrita-home h1{
-        font-size: 3rem;
-    }
-    
-    .escrita-home i{
-        font-size: 2rem;
-        padding: 0px 3px;
-    }
-    
-    
-    .escrita-home h3{
-        font-size: 2rem;
-    }
-    
-    .escrita-home a {
-        font-size: .7rem;
-    }
-
-    .grid-gato{
-        padding-top: 16vh;
-    }
-
-}
-
-@media(max-width: 600px){
-
-    .grid-gato{
-        gap: 50px;
-    }
-
-    .banner2{
-        display: none;
-    }
-
-    .banner3{
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    main .escrita-home{
-        padding: 0px 20px;
-        margin: 0;
-        grid-column: 1/-1;
-    }
-
-    .grid-gato img{
-        width: 100%;
-        grid-column: 1/-1;
-
-    }
-
-
-}
+*/

@@ -6,11 +6,12 @@
   body{
     padding-top: 12vh;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    
 
   }
 
   @media (max-width: 1350px) {
     body {
-      padding-top: 22vh;
+      padding-top: 18vh;
     }
 }
