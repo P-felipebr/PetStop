@@ -5,7 +5,7 @@ main {
 }
 
 .banner-principal {
-    background-image: url("/imagesHome/banner.png");
+    background-image: url("../imagesHome/banner.png");
     position: absolute;
     top: 0;
     left: 0;
