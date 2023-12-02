@@ -102,7 +102,7 @@ main {
 @media(max-width: 1350px) {
 
     .banner-principal {
-        background-image: url(/imagesHome/banner2.png);
+        background-image: url("../imagesHome/banner2.png");
         background-size: cover;
         background-position: center;
     }
