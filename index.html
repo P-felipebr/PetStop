@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <title>PetStop</title>
@@ -25,15 +29,15 @@
                     <div class="line3"></div>
 
                 </div>
-                
+
                 <div class="perfil">
 
-                   <a href="#entrar"> <i class="fa-regular fa-user"></i> </a>
+                    <a href="#entrar"> <i class="fa-regular fa-user"></i> </a>
                 </div>
-                
+
 
             </div>
-            
+
 
 
             <a class="logo" href="./index.html">PetStop</a>
@@ -70,42 +74,247 @@
     </header>
 
     <main>
-        <section class="banner-principal">
-            
-            <div class="grid-banner">
-                <div class="txt-banner">
-                    <div>
-                        <h1>Todo Am<i class="fa-solid fa-heart" style="color: #f9595f;"></i>r</h1>
-                        <h3>Que seu pet merece</h3>
-                    </div>
-                    
-                    <a href="">Explorar agora</a>
-                    
-                </div>
+        <section class="banner">
 
-                <img class="gato" src="./imagesHome/gatoHome.png" alt="">
-            </div>
-            
-<!--             <img class="banner1" src="./imagesHome/banner.png" alt="">
-            
-            <div class="grid-banner">
-                <img class="banner2" src="./imagesHome/banner2.png" alt="">
-                
-                <div class="txt-banner">
-                    <div>
-                        <h1>Todo Am<i class="fa-solid fa-heart" style="color: #f9595f;"></i>r</h1>
-                        <h3>Que seu pet merece</h3>
-                    </div>
-                    
-                    <a href="">Explorar agora</a>
-                    
-                </div>
+            <div class="banner-principal">
 
-                <img class="gato" src="./imagesHome/gatoHome.png" alt=""> -->
-                
+                <div class="grid-banner">
+                    <div class="txt-banner">
+                        <div>
+                            <h1>Todo Am<i class="fa-solid fa-heart" style="color: #f9595f;"></i>r</h1>
+                            <h3>Que seu pet merece</h3>
+                        </div>
+
+                        <a href="">Explorar agora</a>
+
+                    </div>
+
+                    <img class="gato" src="./imagesHome/gatoHome.png" alt="">
+                </div>
             </div>
-            
         </section>
+
+        <section>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+
+                        <div class="card">
+
+                            <div class="card-img">
+
+                                <img src="./imagesHome/imagesCardHome/casinha_de_cachorro.png" alt="">
+
+                                <svg width="187" height="105" viewBox="0 0 187 105" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M170.743 51.0587C155.543 45.4587 160.076 23.392 164.243 13.0587C167.466 -2.94133 151.919 -0.941333 143.743 2.05867C136.143 6.45867 79.2427 11.2253 51.7428 13.0587C6.14277 20.2587 -1.59057 50.392 0.242763 64.5587C5.84276 99.7587 47.2428 98.5587 67.2428 93.5587C96.0428 85.5587 122.576 95.5587 132.243 101.559C162.643 113.159 180.576 83.0587 185.743 66.5587C190.543 54.9587 177.743 51.392 170.743 51.0587Z"
+                                        fill="#FFC6D9" />
+                                </svg>
+
+                            </div>
+
+                            <div class="card-titulo">
+
+                                <h2>Casinha de madeira</h2>
+                                <p class="descricao">Casinha de madeira marrom para cachorro tamanho grande</p>
+
+                                <p class="categoria">Acessórios</p>
+
+                            </div>
+
+                            <div class="card-botao">
+
+                                <a href="">Comprar agora</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card swiper-slide">
+
+                            <div class="card-img">
+
+                                <img src="./imagesHome/imagesCardHome/jacare_de_pelucia.png" alt="">
+
+                                <svg width="187" height="105" viewBox="0 0 187 105" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M170.743 51.0587C155.543 45.4587 160.076 23.392 164.243 13.0587C167.466 -2.94133 151.919 -0.941333 143.743 2.05867C136.143 6.45867 79.2427 11.2253 51.7428 13.0587C6.14277 20.2587 -1.59057 50.392 0.242763 64.5587C5.84276 99.7587 47.2428 98.5587 67.2428 93.5587C96.0428 85.5587 122.576 95.5587 132.243 101.559C162.643 113.159 180.576 83.0587 185.743 66.5587C190.543 54.9587 177.743 51.392 170.743 51.0587Z"
+                                        fill="#FFF1A6" />
+                                </svg>
+
+                            </div>
+
+                            <div class="card-titulo">
+
+                                <h2>Jacare de Pelucia</h2>
+                                <p class="descricao">Brinquedo Chalesco Pelúcia Crocodilo para Cães</p>
+
+                                <p class="categoria">Brinquedo</p>
+
+                            </div>
+
+                            <div class="card-botao">
+
+                                <a href="">Comprar agora</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card swiper-slide">
+
+                            <div class="card-img">
+
+                                <img src="./imagesHome/imagesCardHome/racao_magnus.png" alt="">
+
+                                <svg width="187" height="105" viewBox="0 0 187 105" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M170.743 51.0587C155.543 45.4587 160.076 23.392 164.243 13.0587C167.466 -2.94133 151.919 -0.941333 143.743 2.05867C136.143 6.45867 79.2427 11.2253 51.7428 13.0587C6.14277 20.2587 -1.59057 50.392 0.242763 64.5587C5.84276 99.7587 47.2428 98.5587 67.2428 93.5587C96.0428 85.5587 122.576 95.5587 132.243 101.559C162.643 113.159 180.576 83.0587 185.743 66.5587C190.543 54.9587 177.743 51.392 170.743 51.0587Z"
+                                        fill="#BAD8EB" />
+                                </svg>
+
+                            </div>
+
+                            <div class="card-titulo">
+
+                                <h2>Ração Magnus | 10KG</h2>
+                                <p class="descricao">Ração Magnus Premium para Cães Filhotes Sabor Carne 10,1kg </p>
+
+                                <p class="categoria">Ração</p>
+
+                            </div>
+
+                            <div class="card-botao">
+
+                                <a href="">Comprar agora</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card swiper-slide">
+
+                            <div class="card-img">
+
+                                <img src="./imagesHome/imagesCardHome/remedio_cachorro.png" alt="">
+
+                                <svg width="187" height="105" viewBox="0 0 187 105" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M170.743 51.0587C155.543 45.4587 160.076 23.392 164.243 13.0587C167.466 -2.94133 151.919 -0.941333 143.743 2.05867C136.143 6.45867 79.2427 11.2253 51.7428 13.0587C6.14277 20.2587 -1.59057 50.392 0.242763 64.5587C5.84276 99.7587 47.2428 98.5587 67.2428 93.5587C96.0428 85.5587 122.576 95.5587 132.243 101.559C162.643 113.159 180.576 83.0587 185.743 66.5587C190.543 54.9587 177.743 51.392 170.743 51.0587Z"
+                                        fill="#BDFFA6" />
+                                </svg>
+
+                            </div>
+
+                            <div class="card-titulo">
+
+                                <h2>Antiemetico Avert Vonau Ver para Cães 30ml</h2>
+                                <p class="descricao">Remédio para vômito de cachorro Vounau Met</p>
+
+                                <p class="categoria">remédio</p>
+
+                            </div>
+
+                            <div class="card-botao">
+
+                                <a href="">Comprar agora</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card swiper-slide">
+
+                            <div class="card-img">
+
+                                <img src="./imagesHome/imagesCardHome/arranhador_tv.png" alt="">
+
+                                <svg width="187" height="105" viewBox="0 0 187 105" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M170.743 51.0587C155.543 45.4587 160.076 23.392 164.243 13.0587C167.466 -2.94133 151.919 -0.941333 143.743 2.05867C136.143 6.45867 79.2427 11.2253 51.7428 13.0587C6.14277 20.2587 -1.59057 50.392 0.242763 64.5587C5.84276 99.7587 47.2428 98.5587 67.2428 93.5587C96.0428 85.5587 122.576 95.5587 132.243 101.559C162.643 113.159 180.576 83.0587 185.743 66.5587C190.543 54.9587 177.743 51.392 170.743 51.0587Z"
+                                        fill="#FFC6D9" />
+                                </svg>
+
+                            </div>
+
+                            <div class="card-titulo">
+
+                                <h2>Arranhador Tv Tubo de Papelão Cansei de ser Gato</h2>
+                                <p class="descricao">Arranhador de papelão para gatos em formato de tv</p>
+
+                                <p class="categoria">Acessórios</p>
+
+                            </div>
+
+                            <div class="card-botao">
+
+                                <a href="">Comprar agora</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card swiper-slide">
+
+                            <div class="card-img">
+
+                                <img src="./imagesHome/imagesCardHome/fantasia_unicornio.png" alt="">
+
+                                <svg width="187" height="105" viewBox="0 0 187 105" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M170.743 51.0587C155.543 45.4587 160.076 23.392 164.243 13.0587C167.466 -2.94133 151.919 -0.941333 143.743 2.05867C136.143 6.45867 79.2427 11.2253 51.7428 13.0587C6.14277 20.2587 -1.59057 50.392 0.242763 64.5587C5.84276 99.7587 47.2428 98.5587 67.2428 93.5587C96.0428 85.5587 122.576 95.5587 132.243 101.559C162.643 113.159 180.576 83.0587 185.743 66.5587C190.543 54.9587 177.743 51.392 170.743 51.0587Z"
+                                        fill="#CCA9DD" />
+                                </svg>
+
+                            </div>
+
+                            <div class="card-titulo">
+
+                                <h2>Fantasia de Unicórnio Cansei de ser gato</h2>
+                                <p class="descricao">Toca de unicornio para gatos engraçado</p>
+
+                                <p class="categoria">Roupas</p>
+
+                            </div>
+
+                            <div class="card-botao">
+
+                                <a href="">Comprar agora</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+
+
+
 
     </main>
 
@@ -115,7 +324,7 @@
         <div id="footer_content">
             <div id="footer_contact">
                 <h1 class="footer_logo">PetStop</h1>
-                <p class="frase">petstop. A maior empresa da america latina de vendad em varejo sobre artigos de pet</p>
+                <p class="frase">petstop. A maior empresa da america latina de vendas em varejo sobre artigos de pet</p>
 
                 <div id="footer_social_media">
                     <a href="#" class="footer-link" id="instagram">
@@ -188,5 +397,8 @@
 
     <!-- COPIE PARA SEU HTML -->
     <script src="./SCRIPT/mobile-navbar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./SCRIPT/carrosselHome.js"></script>
 </body>
+
 </html>

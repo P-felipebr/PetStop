@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Inter:wght@100;200;300;400;500;600&display=swap');
 
-main {
-    height: 80vh;
+.banner {
+    height: 70vh;
 }
+
+
 
 .banner-principal {
     background-image: url("../imagesHome/banner.png");
@@ -13,6 +16,7 @@ main {
     width: 100%;
     height: 80vh;
     background-repeat: no-repeat;
+    z-index: -1;
 }
 
 .grid-banner {
@@ -83,8 +87,8 @@ main {
     }
 
     .txt-banner i {
-            font-size: 4.5rem;
-        }
+        font-size: 4.5rem;
+    }
 
     .txt-banner h3 {
         font-size: 3.4rem;
@@ -93,6 +97,7 @@ main {
     .txt-banner a {
         font-size: 1.3rem;
     }
+
     .gato {
         width: 150%;
     }
@@ -112,8 +117,8 @@ main {
     }
 
     .txt-banner i {
-            font-size: 3rem;
-        }
+        font-size: 3rem;
+    }
 
     .txt-banner h3 {
         font-size: 2.5rem;
@@ -132,14 +137,14 @@ main {
         grid-template-columns: 1fr;
         justify-items: left;
     }
-    
+
     .txt-banner h1 {
         font-size: 4.5rem;
     }
 
     .txt-banner i {
-            font-size: 3rem;
-        }
+        font-size: 3rem;
+    }
 
     .txt-banner h3 {
         font-size: 2.5rem;
@@ -149,13 +154,14 @@ main {
         font-size: .8rem;
     }
 
-    .txt-banner{
+    .txt-banner {
         margin: 0;
         padding: 0;
         text-align: left;
         padding-left: 20px;
         padding-top: 150px;
     }
+
     .gato {
         justify-self: center;
     }
@@ -168,8 +174,8 @@ main {
     }
 
     .txt-banner i {
-            font-size: 2.5rem;
-        }
+        font-size: 2.5rem;
+    }
 
     .txt-banner h3 {
         font-size: 2.3rem;
@@ -179,11 +185,102 @@ main {
         font-size: .8rem;
     }
 
-    .txt-banner{
-        
-    }
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 232px;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.card-img img {
+    position: absolute;
+    width: 170px;
+}
+
+.card-img svg {
+    margin-top: 80px;
+}
+
+.card-titulo h2 {
+    color: #003459;
+    font-family: 'Alata', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+
+.card-titulo .descricao {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+
+.card-titulo p {
+    color: #AAA;
+    font-family: 'Alata', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-titulo .categoria {
+    margin-top: 10px;
+}
+
+.card-botao a {
+    text-decoration: none;
+    color: #003459;
+    font-family: 'Alata', sans-serif;
+    border: 2px solid #003459;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.swiper{
+    max-width: 1000px;
+    width: 100%;
+    padding: 30px 0px;
+    margin-right: 5%;
+
+}
+
+.swiper-slide {
+    justify-content: center;
+    display: flex;
+}
+
+.swiper-button-next{
+    right: 0;
+}
+
+.swiper-button-prev{
+    left: 0;
+}
+
+.swiper-pagination{
+    height: 10px;
+}
+
+@media(max-width: 1120px){
+    .swiper-navBtn{
+        display: none;
+    }
+    .swiper{
+        margin-right: auto;
+    }
+}
 
 
 /* .banner-principal{
