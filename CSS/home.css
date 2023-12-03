@@ -60,7 +60,7 @@
 
 .txt-banner h3 {
     color: #00528C;
-    font-family: Alata;
+    font-family: "Alata", "sans-serif";
     font-size: 3.1rem;
     font-style: normal;
     font-weight: 400;
@@ -70,13 +70,14 @@
     text-decoration: none;
     padding: 12px 20px;
     color: #FFF;
-    font-family: Poppins;
+    font-family: "Poppins", "sans-serif";
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     border-radius: 59px;
     background: #003459;
+    cursor: pointer;
 }
 
 
@@ -187,6 +188,61 @@
 
 }
 
+.ofertas{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.ofertas-txt h1 {
+    color: #003459;
+    font-family: Alata;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ofertas-txt span {
+    color: #00A7E7;
+    font-family: Alata;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ofertas-txt p {
+    color: #000;
+    font-family: "Poppins", "sans-serif";
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.container-oferta{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    padding: 20px;
+}
+
+.container-oferta a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #003459;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.5s ease;
+}
+.container-oferta a:hover{
+    background-color: #00528C;
+    transition: 0.5s ease;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -246,9 +302,17 @@
     border: 2px solid #003459;
     padding: 10px 15px;
     border-radius: 10px;
+    transition: 0.3s ease-out;
 }
 
-.swiper{
+.card-botao a:hover {
+ 
+    background-color: #003459;
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+.swiper {
     max-width: 1000px;
     width: 100%;
     padding: 30px 0px;
@@ -261,24 +325,52 @@
     display: flex;
 }
 
-.swiper-button-next{
+.swiper-button-next {
     right: 0;
 }
 
-.swiper-button-prev{
+.swiper-button-prev {
     left: 0;
 }
 
-.swiper-pagination{
+.swiper-pagination {
     height: 10px;
 }
 
-@media(max-width: 1120px){
-    .swiper-navBtn{
+@media(max-width: 1120px) {
+    .swiper-navBtn {
         display: none;
     }
-    .swiper{
+
+    .swiper {
         margin-right: auto;
+    }
+}
+
+@media(max-width: 1024px){
+    .ofertas{
+        flex-direction: column;
+        align-items: start;
+    }
+}
+
+@media(min-width: 1900px) {
+    .swiper {
+        max-width: 1300px;
+        width: 100%;
+    }
+    .ofertas-txt h1 {
+        font-size: 4rem;
+    }
+    
+    .ofertas-txt span {
+        font-size: 4rem;
+
+    }
+    
+    .ofertas-txt p {
+        font-size: 1rem;
+
     }
 }
 
