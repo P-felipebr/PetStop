@@ -67,13 +67,13 @@
     display: flex;
     align-items: center;
     gap: 26px;
-    border: 1px solid #575757;
+    border: 1px solid #002A48;
     border-radius: 50px;
 }
 
 .input-wrapper i{
     cursor: pointer;
-    color: #575757;
+    color: #002A48;
     font-size: 1.2rem;
 }
 
