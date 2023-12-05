@@ -30,10 +30,27 @@
     justify-content: center;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-
     background: transparent;
     height: 8vh;
-  
+  }
+
+  .navbar .nav-login{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: transparent;
+    height: 8vh;
+    justify-content: space-between;
+    margin: 0px 50px;
+  }
+
+  .navbar .cadeado{
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
   
   .nav-list {
