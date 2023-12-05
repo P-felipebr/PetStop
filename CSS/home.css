@@ -389,6 +389,8 @@
 .novos-produtos {
     background-color: #FCEED5;
     padding: 50px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .novos-produtos h1 {
@@ -476,7 +478,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-decoration: line-through;
+    text-decoration: line-through; 
 }
 
 .card-NovosProdutos .novo-preco {

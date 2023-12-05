@@ -1,0 +1,283 @@
+p,
+h2 {
+    margin: 0;
+}
+
+.tela-pagamento {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.pagamento-esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.divisao-pagamento {
+    display: flex;
+    gap: 40px;
+}
+
+.Titulo-pagamento {
+    margin-left: 30px;
+    color: #454545;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.info-pagamento {
+    border: 1.5px solid #454545;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 800px;
+    width: 100%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.info-pagamento p {
+    color: #454545;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.formas-de-pagamento::after {
+    content: "";
+    top: 185px;
+    max-width: 800px;
+    width: 100%;
+    height: 1px;
+    background: #777777;
+    position: absolute;
+    z-index: 1;
+    margin-top: 12vh;
+}
+
+.formas-de-pagamento {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.meio-de-pagamento {
+    color: #454545;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.numero-cartao {
+    display: flex;
+    gap: 20px;
+
+}
+
+.numero-cartao-2 {
+    display: flex;
+    gap: 20px;
+
+}
+
+.cartao-container-wrapper-cvv {
+    max-width: 60px;
+    width: 100%;
+}
+
+.cartao-input-wrapper {
+    height: 43px;
+    padding: 1px 15px;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    border: 1px solid #002A48;
+    border-radius: 10px;
+}
+
+.cartao-input-wrapper i {
+    cursor: pointer;
+    color: #002A48;
+    font-size: 1.2rem;
+}
+
+.cartao-input-wrapper input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.cartao-input-wrapper input:focus-visible {
+    outline: none;
+}
+
+.comprar-novamente {
+    display: flex;
+}
+
+.comprar-novamente input {
+    cursor: pointer;
+}
+
+
+/* CARD DE PRODUTOS SELECIONADO */
+
+.card-pagamento-produto {
+    max-width: 800px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    border: 1.5px solid #454545;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+.card-pagamento-produto-descricao {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-pagamento-produto img {
+    width: 120px;
+}
+
+.card-pagamento-produto-preco {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* CARD ENDERECO DIREITO */
+
+.pagamento-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.endereco-pagamento {
+    border: 1.5px solid #454545;
+    border-radius: 20px;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.endereco-pagamento h2 {
+    color: #454545;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.endereco-pagamento h4 {
+    color: #454545;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.endereco-pagamento p {
+    color: #454545;
+    font-family: "Poppins";
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 100;
+
+}
+
+.endereco-pagamento h3 {
+    color: #454545;
+    font-family: "Poppins";
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* CSS CARD TOTAL PAGAMENTO */
+
+.total-pagamento{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1.5px solid #454545;
+    border-radius: 20px;
+    padding: 30px;
+
+}
+
+
+.total-pagamento h2 {
+    color: #454545;
+    font-family: "Poppins";
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.total-pagamento p {
+    color: #454545;
+    font-family: "Poppins";
+    font-size: .8rem;
+
+}
+
+.total-pagamento h4,
+span {
+    color: #454545;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.total-pagamento div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-pagar-agora{
+    max-width: 500px;
+    width: 100%;
+    background-color: #002A48;
+    color: white;
+    padding: 30px 0px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s ease;
+}
+
+.btn-pagar-agora:hover{
+    background-color: #00528C;
+    transition: 0.5s ease;
+}

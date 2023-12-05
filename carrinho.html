@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Carrinho de Compras </title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+
+<body>
+
+    <!-- COPIE ESSA NAVBAR PARA SEU HTML -->
+
+    <header class="navbar">
+        <nav>
+
+            <div class="mobile-menu">
+
+                <div class="linhas">
+
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+
+                </div>
+                
+                <div class="perfil">
+
+                   <a href="#entrar"> <i class="fa-regular fa-user"></i> </a>
+                </div>
+                
+
+            </div>
+            
+
+
+            <a class="logo" href="./index.html">PetStop</a>
+
+            <ul class="nav-list">
+
+                <div class="info-menu">
+                    <h2>Departamentos</h2>
+                </div>
+                <li> <a href="./telaProdutos.html"> Cachorro</a> </li>
+                <li> <a href="./telaProdutos.html"> Gato</a> </li>
+                <li> <a href="./telaProdutos.html"> Pássaro</a> </li>
+                <li> <a href="./telaProdutos.html"> Peixe</a> </li>
+                <li> <a href="./telaProdutos.html"> Marcas</a> </li>
+            </ul>
+
+            <div class="container-wrapper">
+                <div class="input-wrapper">
+                    <i class="fa fa-search"></i>
+                    <input type="text" placeholder="Procurar pelo produto">
+                </div>
+            </div>
+
+            <div class="final-nav">
+                <a href="#Favoritos"> <i class="fa-regular fa-heart"></i> </a>
+
+                <a href="./carrinho.html"> <i class="fa-solid fa-cart-shopping"></i> </a>
+
+                <a class="entrar" href="#Entrar"> Entrar </a>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="carrinho">
+        
+            <h1 class="nome_carrinho"> Carrinho </h1>
+        
+        <section class="divisão">
+
+            <section class="amostra_produtos">
+            
+                    <div class="nomes">
+                        <h3 class="nome_produto"> Produtos </h3>
+                        <h3> Preço </h3>
+                        <h3 > Quantidade </h3>    
+                        <h3 class="traço"> Remover </h3>                   
+                     </div>
+                    <div class="nomes2">
+                        <h3>Produtos</h3>
+                    </div>
+                    
+
+                    <div class="produto">
+                        <img class="ração" src="./imagesCarrinho/raçãodog.jpg" alt="ração">
+
+                        <div class="produto2"> 
+                            <p>Ração Magnus Premium para Cães Filhotes  Sabor Carne 
+                            10,1kg</p>
+                            <p class="valor1" >R$ 130,00 </p>
+                            
+                            <div class="quantidade">
+                          <input type="number" name="5" id="numero" min="0" max="5" value="2">
+                                
+                              </div>
+
+                             
+                            <button class="remover"> <i class="fa-regular fa-trash-can"></i> </button> 
+                              
+                        </div>
+                    </div>
+                
+                    <div class="produto">
+                        <img class="cama" src="./imagesCarrinho/caminhapet.jpg" alt="cama de cachorro">
+                        <div class="produto2"> 
+                            <p>Cama Clássica Flicks Cinza Perfeita para o seu Pet</p>
+                                <p class="valor1">R$ 101,00 </p>
+                                <div class="quantidade">   
+                                     <input type="number" name="" id="numero"  min="0" max="5" value="1">
+
+                                </div>                              
+                           <button class="remover"> <i class="fa-regular fa-trash-can"></i> </button>
+                                
+                        </div>
+                     </div>
+
+            </section>
+
+                    <section class="complemento"> 
+                    
+                        <div class="cep">
+                            <h1 class="nome_cep">Qual seu CEP?</h1>
+                        <div class="cep3">
+                            <input type="text" placeholder="00000-000"> 
+                            <p class="buscar">Buscar</p>
+                        </div>
+                        
+                     </div>
+
+                        <div class="pagamento"
+                        > <h2 class="traço2"> Resumo do Pedido </h2>
+                        
+                            <div class="pagamento2">
+                                <p>Valor dos Produtos (2 itens)</p>
+                                <span class="valor_produtos" >R$ 361.00 </span>
+                                <h2>Total</h2>
+                                <span class="valor3" >R$ 361.00 </span>
+                                
+                            </div>
+                            <a href="./pagamento.html" class="Finalizar"> Ir para Pagamento </a>
+                        
+                        </div>
+                    </section>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+       
+    </main>
+
+    <!-- COPIE ESSE FOOTER PARA SEU HTML -->
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contact">
+                <h1 class="footer_logo">PetStop</h1>
+                <p class="frase">petstop. A maior empresa da america latina de vendas em varejo sobre artigos de pet</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+
+                </div>
+
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Institucional</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Compania</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Produtos</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Suporte</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">FAQ</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Suporte Customizado</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Institucional</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link"><i class="fa-solid fa-phone"></i> +55 (81) 4002-8922</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link"> <i class="fa-brands fa-whatsapp"></i> +55 (81) 4002-8933</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link"> <i class="fa-solid fa-envelope"></i> Petstop@gmail.com</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            PetStop 2023 - Todos os Direitos reservado
+        </div>
+
+    </footer>
+
+    <!-- COPIE PARA SEU HTML -->
+    <script src="./SCRIPT/mobile-navbar.js"></script>
+    <script src="./SCRIPT/carrinho.js"></script>
+</body>
+</html>

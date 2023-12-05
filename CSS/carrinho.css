@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+
+.carrinho {
+    color: #003459;
+    font-family: poppins;
+
+}
+
+.divisão {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+    margin-bottom: 50px;
+
+}
+
+
+.nome_carrinho {
+    padding: 20px;
+    margin-bottom: 20px;
+    display: grid;
+}
+
+.cep {
+    margin-right: 30rem;
+}
+
+.produto {
+    display: flex;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 10px;
+    width: 800px;
+    background: #f1eeeeef;
+
+}
+
+.nomes {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    margin-bottom: 0;
+    justify-items: center;
+}
+
+.nomes2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    margin-bottom: 0;
+    justify-items: center;
+    display: none;
+}
+
+.nome_produto {
+    margin-left: -250px;
+}
+
+.produto2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.Finalizar {
+    cursor: pointer;
+
+}
+
+
+span {
+    font-size: 1.1rem;
+}
+
+
+
+#numero {
+    width: 50px;
+    height: 25px;
+    text-align: center;
+
+}
+
+.ração {
+    width: 150px;
+    height: 150px;
+}
+
+.cama {
+    width: 150px;
+    height: 100px;
+    padding: 5px;
+}
+
+.traço::after {
+    content: " ";
+    background: #0034594f;
+    position: absolute;
+    z-index: 1;
+    width: 1px;
+    height: 90px;
+    left: 58rem;
+}
+
+
+.forma_entrega {
+
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.pagamento {
+    border: 1px black solid;
+    margin-top: 20px;
+    width: 350px;
+    height: 250px;
+    background: #f1eeeeef;
+    border-radius: 10px;
+    display: grid;
+
+}
+
+.pagamento2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.complemento,
+h2,
+p,
+span {
+    margin-left: 7px;
+}
+
+.Finalizar {
+    border: 0;
+    padding: 10px;
+    border-radius: 3px;
+    background: #01416e;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.Finalizar:hover {
+    background: black;
+    color: white;
+}
+
+.buscar:hover {
+    color: #0078CD;
+}
+
+.remover {
+    border: none;
+}
+
+@media (min-width: 1400px) {
+
+    .traço::after {
+        content: " ";
+        background: #0034594f;
+        position: absolute;
+        z-index: 1;
+        width: 1px;
+        height: 22rem;
+        margin-left: 10rem;
+
+    }
+
+    .amostra_produtos {
+        justify-self: center;
+        margin-left: 200px;
+    }
+
+    .nome_carrinho {
+        margin-left: 200px;
+    }
+
+    .complemento {
+        margin-left: 150px;
+    }
+
+    .nome_cep {
+        margin-left: 0.4rem;
+    }
+
+}
+
+@media (max-width: 1400px) {
+    .complemento {
+        margin-left: 100px;
+    }
+
+    .traço::after {
+        content: " ";
+        background: #0034594f;
+        position: absolute;
+        z-index: 1;
+        width: 1px;
+        height: 23rem;
+        margin-left: -4rem;
+    }
+
+}
+
+
+
+@media (max-width: 1200px) {
+    .divisão {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .traço::after {
+        display: none;
+    }
+
+    .complemento {
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+    }
+
+    .cep {
+        margin-left: 2rem;
+    }
+
+    .nomes {
+        display: grid;
+        grid-template-columns: 400px 180px 100px 130px;
+    }
+
+}
+
+@media (max-width: 820px) {
+
+    .produto2 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .produto {
+        width: 400px;
+    }
+
+    .nomes {
+        display: none;
+    }
+
+    .nomes2 {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .valor2 {
+        display: none;
+    }
+
+    .produto2 i {
+        margin-left: 10rem;
+        margin-bottom: 1rem;
+    }
+
+    .cep {
+        margin-left: 2px;
+    }
+
+    .nome_cep {
+        margin-left: 5px;
+    }
+
+    .ração {
+        width: 100px;
+        height: 100px;
+        justify-self: center;
+    }
+
+    .cama {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.buscar {
+    cursor: pointer;
+}
+
+.cep3 {
+    width: 250px;
+    height: 43px;
+    padding: 1px 15px;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    border: 1px solid #575757;
+    border-radius: 50px;
+}
+
+.cep i {
+    cursor: pointer;
+    color: #575757;
+    font-size: 1.2rem;
+}
+
+.cep3 input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.cep3 input:focus-visible {
+    outline: none;
+}

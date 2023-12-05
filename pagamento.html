@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>PetStop</title>
+</head>
+
+<body>
+
+    <!-- COPIE ESSA NAVBAR PARA SEU HTML -->
+
+    <header class="navbar">
+        <nav>
+
+            <div class="mobile-menu">
+
+                <div class="linhas">
+
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+
+                </div>
+
+                <div class="perfil">
+
+                    <a href="#entrar"> <i class="fa-regular fa-user"></i> </a>
+                </div>
+
+
+            </div>
+
+
+
+            <a class="logo" href="./index.html">PetStop</a>
+
+            <ul class="nav-list">
+
+                <div class="info-menu">
+                    <h2>Departamentos</h2>
+                </div>
+                <li> <a href="./telaProdutos.html"> Cachorro</a> </li>
+                <li> <a href="./telaProdutos.html"> Gato</a> </li>
+                <li> <a href="./telaProdutos.html"> Pássaro</a> </li>
+                <li> <a href="./telaProdutos.html"> Peixe</a> </li>
+                <li> <a href="./telaProdutos.html"> Marcas</a> </li>
+            </ul>
+
+            <div class="container-wrapper">
+                <div class="input-wrapper">
+                    <i class="fa fa-search"></i>
+                    <input type="text" placeholder="Procurar pelo produto">
+                </div>
+            </div>
+
+            <div class="final-nav">
+                <a href="#Favoritos"> <i class="fa-regular fa-heart"></i> </a>
+
+                <a href="./carrinho.html"> <i class="fa-solid fa-cart-shopping"></i> </a>
+
+                <a class="entrar" href="#Entrar"> Entrar </a>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="tela-pagamento">
+
+
+
+        <h1 class="Titulo-pagamento">Pagamento</h1>
+
+        <div class="divisao-pagamento">
+
+            <section class="pagamento-esquerda">
+
+                <div class="info-pagamento">
+
+                    <div>
+
+                        <ul class="formas-de-pagamento">
+                            <li class="meio-de-pagamento"> <i class="fa-regular fa-credit-card"></i> Cartão </li>
+                            <li class="meio-de-pagamento"> <i class="fa-brands fa-pix"></i> Pix </li>
+                            <li class="meio-de-pagamento"> <i class="fa-solid fa-barcode"></i> Boleto </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="numero-cartao">
+
+                        <div>
+                            <p>Número do cartão</p>
+                            <div class="cartao-container-wrapper">
+                                <div class="cartao-input-wrapper">
+                                    <i class="fa-regular fa-credit-card"></i>
+                                    <input type="text" placeholder="Digite o número do cartão">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <p>Nome</p>
+                            <div class="cartao-container-wrapper">
+                                <div class="cartao-input-wrapper">
+                                    <input type="text" placeholder="Digite o nome que esta no cartão">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="numero-cartao-2">
+
+                        <div>
+                            <p>Validade</p>
+                            <div class="cartao-container-wrapper">
+                                <div class="cartao-input-wrapper">
+                                    <input type="text" placeholder="Mes e Ano">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <p>cvv</p>
+                            <div class="cartao-container-wrapper-cvv">
+                                <div class="cartao-input-wrapper">
+                                    <input type="text" placeholder="cvv">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <p>Em Quantas vezes?</p>
+                            <div class="cartao-container-wrapper">
+                                <div class="cartao-input-wrapper">
+                                    <input type="text" placeholder="1x">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="comprar-novamente">
+                        <input type="checkbox" name="" id="">
+                        <p>Usar essse cartão para compras futuras</p>
+                    </div>
+
+                </div>
+
+                <div>
+                    <div class="card-pagamento-produto">
+
+                        <div class="card-pagamento-produto-descricao">
+
+                            <img src="./imagesCarrinho/raçãodog.jpg" alt="">
+
+                            <p>Ração Magnus Premium para Cães
+                                Filhotes Sabor Carne 10,1kg</p>
+                        </div>
+
+                        <div class="card-pagamento-produto-preco">
+                            <h3>
+                                R$ 150,00
+                            </h3>
+
+                            <p>1 item</p>
+
+                            <h3>R$ 150,00</h3>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="card-pagamento-produto">
+
+                        <div class="card-pagamento-produto-descricao">
+
+                            <img src="./imagesCarrinho/caminhapet.jpg" alt="">
+
+                            <p>Caminha de cachorro P</p>
+                        </div>
+
+                        <div class="card-pagamento-produto-preco">
+                            <h3>
+                                R$ 101,00
+                            </h3>
+
+                            <p>1 item</p>
+
+                            <h3>R$ 101,00</h3>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="pagamento-direita">
+                <div class="endereco-pagamento">
+                    <h2>Endereço de entrega</h3>
+
+                        <h4>Gabryella</h4>
+
+                        <p>Rua dos bobos, 0</p>
+
+                        <p>Imbiribeira, Recife-PE</p>
+
+                        <p>CEP: 55220-001</p>
+
+                        <h3>Prazo de entrega: Até 5 dias</h3>
+
+
+                </div>
+
+                <div class="total-pagamento">
+
+                    <h2>Resumo do pedido</h3>
+
+                        <div>
+                            <p> Valor dos produtos <span>(2 itens)</span> </p>
+                            <h4>R$251,00</h4>
+                        </div>
+
+                        <div>
+                            <p> Prazo de entrega </p>
+                            <h4>Até 5 dias uteis</h4>
+                        </div>
+
+                        <div>
+
+                            <p> Taxa de serviço </p>
+                            <h4>R$6,50</h4>
+                        </div>
+
+                        <div>
+                            <p> Entrega para <span> 55220-001 </span> </p>
+                            <h4>R$6,90</h4>
+                        </div>
+
+                        
+                        <div>
+                            <h2>Total</h2>
+                            <h2>R$ 263,93</h2>
+                        </div>
+
+
+                </div>
+                <a class="btn-pagar-agora" href="./index.html">Pagar agora</a>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contact">
+                <h1 class="footer_logo">PetStop</h1>
+                <p class="frase">petstop. A maior empresa da america latina de vendas em varejo sobre artigos de pet</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+
+                </div>
+
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Institucional</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Compania</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Produtos</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Suporte</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">FAQ</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Suporte Customizado</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Institucional</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link"><i class="fa-solid fa-phone"></i> +55 (81) 4002-8922</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link"> <i class="fa-brands fa-whatsapp"></i> +55 (81) 4002-8933</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link"> <i class="fa-solid fa-envelope"></i> Petstop@gmail.com</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            PetStop 2023 - Todos os Direitos reservado
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
